@@ -29,6 +29,7 @@
     "mongodb": "^3.2.4",
     "mongoose": "^5.5.8",
     "mongoose-validator": "^2.1.0",
-    "nodemon": "^1.19.0"
+    "nodemon": "^1.19.0",
+    "react-share": "^3.0.0"
   }
 }
