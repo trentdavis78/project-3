@@ -1,28 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Modal from './components/Modal';
+import Navbar from './components/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="App-div">
-          <img src={logo} className="App-logo" alt="logo" />
+export class App extends Component {
+  render() {
+    return (
+      <div>      
+      <Navbar />
+      <Modal id={"loginModal"}>
+      <div className="social-div" id="facebook">
+          <a className="waves-effect waves-light btn-large social facebook">
+            <i className="fab fa-facebook-f"></i> Sign in with facebook</a>
         </div>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <div className="social-div" id="google">
+          <a className="waves-effect waves-light btn-large social google">
+            <i className="fab fa-google"></i> Sign in with google</a>
+        </div>
+        <div className="social-div" id="github">
+          <a className="waves-effect waves-light btn-large social github">
+            <i className="fab fa-github"></i> Sign in with github</a>
+        </div>
+      </Modal>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
+
