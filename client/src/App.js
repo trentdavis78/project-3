@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Modal from './components/Modal';
 import Navbar from './components/Navbar';
+import 'materialize-css/dist/css/materialize.min.css';
+
 
 export class App extends Component {
   render() {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 class Modal extends Component {
@@ -12,8 +11,7 @@ class Modal extends Component {
     }
     render() {
         return (
-            <div>
-                <a className="waves-effect waves-light btn modal-trigger" href={"#"+this.props.id}>Modal</a>
+            <div>               
                 <div id={this.props.id} className="modal">
                     <div className="modal-content">
                         {this.props.children}
