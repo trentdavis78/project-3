@@ -17,7 +17,7 @@ class Modal extends Component {
                         {this.props.children}
                     </div>
                     <div className="modal-footer">
-                        <a href="#!" className="modal-close waves-effect waves-green btn-flat">Agree</a>
+                        <a href="#!" className="modal-close waves-effect waves-green btn-flat">Close</a>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ export class Navbar extends Component {
         return (
             <nav>
                 <div className="nav-wrapper" style={{background: "#003594"}}>
-                    <a href="#!" className="brand-logo"><img style={{width: 150}} className="logo" src="assets/images/logo.svg" alt="logo" /></a>
+                    <a href="#!" className="brand-logo"><img style={{width: 150, marginLeft: 20}} className="logo" src="assets/images/logo.svg" alt="logo" /></a>
                     <a href="#" data-target="slide-out" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down">
                         <li><a href="#!">News</a></li>
